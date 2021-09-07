@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autos Clasicos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Special+Elite&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu target centro">
+    <div class="menu-linea menu-linea-1"></div>
+    <div class="menu-linea menu-linea-2"></div>
+  </div>
+  <!-- Menu final -->
+
+  <!-- Navbar -->
+  <nav class="navbar target">
+    <a href="#inicio" class="navbar-link">Inicio</a>
+    <a href="#coches-populares" class="navbar-link">Autos Populares</a>
+    <a href="#galeria-video" class="navbar-link">Galeria de Video</a>
+    <a href="#galeria-imagenes" class="navbar-link">Galeria de Imagenes</a>
+    <a href="#contacto" class="navbar-link">Contacto</a>
+  </nav>
+  <!-- Navbar final -->
+
+  <!-- Seccion 1 -->
+  <div class="wrapper">
+    <section class="seccion-1 target centro" id="inicio">
+      <h1 class="seccion-header seccion-1-header">
+        Autos Clasicos
+      </h1>
+      <img src="./images/car-section1.png" alt="auto-seccion-1" class="seccion-1-img">
+    </section>
+  </div>
+  <!-- Seccion 1 final -->
+
+  <!-- Seccion 2 -->
+  <div class="wrapper">
+    <section class="seccion-2 target" id="coches-populares">
+      <h1 class="seccion-header">Autos Populares</h1>
+      <div class="cartas-wrapper centro">
+        <div class="carta">
+          <h2 class="auto-nombre">
+            Nombre de Auto
+          </h2>
+          <img class="carta-img" src="./images/car-1.jpg" alt="auto-1">
+          <h3 class="auto-precio">$200.000</h3>
+          <button class="carta-btn">Mas</button>
+        </div>
+        <div class="carta">
+          <h2 class="auto-nombre">
+            Nombre de Auto
+          </h2>
+          <img class="carta-img" src="./images/car-2.jpg" alt="auto-1">
+          <h3 class="auto-precio">$100.000</h3>
+          <button class="carta-btn">Mas</button>
+        </div>
+        <div class="carta">
+          <h2 class="auto-nombre">
+            Nombre de Auto
+          </h2>
+          <img class="carta-img" src="./images/car-3.jpg" alt="auto-1">
+          <h3 class="auto-precio">$120.000</h3>
+          <button class="carta-btn">Mas</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Seccion 2 final -->
+
+  <!-- Seccion 3 -->
+  <div class="wrapper">
+    <section class="seccion-3 target" id="galeria-video">
+      <h1 class="seccion-header">Galeria de Video</h1>
+      <div class="videos-wrapper centro">
+        <video class="video" src="./images/car-video-1.mp4" muted loop></video>
+        <video class="video" src="./images/car-video-2.mp4" muted loop></video>
+        <video class="video" src="./images/car-video-3.mp4" muted loop></video>
+      </div>
+      <div class="videos-wrapper centro">
+        <video class="video" src="./images/car-video-4.mp4" muted loop></video>
+        <video class="video" src="./images/car-video-5.mp4" muted loop></video>
+        <video class="video" src="./images/car-video-6.mp4" muted loop></video>
+      </div>
+    </section>
+  </div>
+  <!-- Seccion 3 final -->
+
+  <!-- Seccion 4 -->
+  <div class="wrapper">
+    <section class="seccion-4 target" id="galeria-imagenes">
+      <h1 class="seccion-header">Galeria de Imagenes</h1>
+      <div class="galeria centro">
+        <div class="galeria-estante "></div>
+        <img class="galeria-img-1" src="./images/gallery-car-1.jpg" alt="galeria-1">
+        <img class="galeria-img-2" src="./images/gallery-car-2.jpg" alt="galeria-2">
+        <img class="galeria-img-3" src="./images/gallery-car-3.jpg" alt="galeria-3">
+      </div>
+      <div class="galeria centro">
+        <div class="galeria-estante "></div>
+        <img class="galeria-img-1" src="./images/gallery-car-4.jpg" alt="galeria-4">
+        <img class="galeria-img-2" src="./images/gallery-car-5.jpg" alt="galeria-5">
+        <img class="galeria-img-3" src="./images/gallery-car-6.jpg" alt="galeria-6">
+      </div>
+    </section>
+  </div>
+  <!-- Seccion 4 final -->
+
+  <!-- Seccion 5 -->
+  <div class="wrapper">
+    <section class="seccion-5 target" id="contacto">
+      <h1 class="seccion-header">Contacteme</h1>
+      <form class="contacto-form">
+        <input type="text" class="form-input" placeholder="Su nombre">
+        <input type="email" class="form-input" placeholder="Su correo">
+        <textarea class="form-input" placeholder="Su mensaje"></textarea>
+        <input type="submit" class="form-btn" value="Enviar">
+      </form>
+      <p class="copyright">
+        Copyright &copy; Pepe Todos Los Derechos Reservados
+      </p>
+    </section>
+  </div>
+  <!-- Seccion 5 final -->
+  <script src="script.js"></script>
+</body>
+
+</html>
